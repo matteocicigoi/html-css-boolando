@@ -1,0 +1,72 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Typography */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* Header */
+/* Main */
+main{
+    max-width: 1380px;
+    margin: 0 auto;
+}
+main .container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+main .box{
+    position: relative;
+    width: calc((100% - 40px) / 3);
+}
+main .box .img{
+    width: 100%;
+    display: block;
+}
+main .box .img.sopra{
+    position: absolute;
+    top: 0;
+    display: block;
+}
+main .box .img.sopra:hover{
+    opacity: 0;
+    transition: .4s;
+}
+main .box span.prezzo{
+    color: #FF0000;
+    font-weight: bold;
+}
+main .box span.sconto{
+    text-decoration: line-through;
+}
+main .box .box2{
+    position: absolute;
+    top: 576px;
+    left: 0;
+}
+main .box .cuore{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    padding: 15px;
+    background-color: white;
+    color: black;
+}
+main .box .cuore:hover{
+    color: red
+}
+main .box .box2 h3{
+    display: inline;
+    padding: 8px 10px;
+    background-color: #FF0000;
+    color: white;
+}
+main .box .box2 h3.sostenibilità{
+    background-color: #008000;
+}
