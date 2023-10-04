@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 /* Common */
-main, header .menu{
+main, header .menu, footer .menu{
     max-width: 1380px;
     margin: 0 auto;
 }
@@ -97,4 +97,34 @@ main .box .box2 h3{
 }
 main .box .box2 h3.sostenibilità{
     background-color: #008000;
+}
+/* Footer */
+footer{
+    background-color: #1A1A1A;
+    margin-top: 60px;
+}
+footer .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    color: white;
+}
+footer .menu h3{
+    font-size: 15px;
+}
+footer .menu li{
+    font-weight: bold;
+    padding: 15px 5px;
+    font-weight: 400;
+}
+footer .menu li:first-child{
+    margin-left: -5px;
+    font-size: 13px;
+}
+footer .menu ul:last-child{
+    font-size: 15px;
+}
+footer .menu ul:first-child{
+    font-size: 13px;
 }
